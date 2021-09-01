@@ -1,0 +1,35 @@
+This output file is generated from the following files: 
+Light isotope file: tests\log_files\water\frequency\H2O_16-O.LOG
+Heavy isotope file: tests\log_files\water\frequency\H2O_18-O.LOG
+
+O isotopes extracted: 16 and 18
+Temperature = 298.15 K
+
+ln(v/v'): -0.010308781419693998
+lnQ: -22.53854287516933
+lnQ': -22.612654961527912
+RPFR: 63.80330493888664
+
+Light isotope frequencies: 
+[1667.0706 3796.3697 3908.4906]
+
+Heavy isotope frequencies: 
+[1660.1773 3788.3049 3892.7375]
+
+Light isotope convergence table:
+         Item               Value     Threshold  Converged?
+ Maximum Force            0.000309     0.000450     YES
+ RMS     Force            0.000254     0.000300     YES
+ Maximum Displacement     0.001166     0.001800     YES
+ RMS     Displacement     0.001013     0.001200     YES
+
+Low frequencies: [0.0015, 0.0004, 0.0011, 41.5191, 60.0133, 86.979, 1667.0706, 3796.3697, 3908.4907]
+
+Heavy isotope convergence table: 
+         Item               Value     Threshold  Converged?
+ Maximum Force            0.000309     0.000450     YES
+ RMS     Force            0.000254     0.000300     YES
+ Maximum Displacement     0.001166     0.001800     YES
+ RMS     Displacement     0.001013     0.001200     YES
+
+Low frequencies: [0.0009, -0.0008, 0.0013, 41.5191, 59.8795, 86.4354, 1660.1773, 3788.3049, 3892.7376]

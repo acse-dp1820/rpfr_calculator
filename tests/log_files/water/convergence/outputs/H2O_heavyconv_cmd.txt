@@ -1,0 +1,61 @@
+
+------------------ TEMPERATURE CHECK ------------------
+
+Extracting temperature values from the log files...
+Checking the temperature values in both log files are equal.
+Temperature:  298.15  K
+
+
+----------- LIGHT ISOTOPE FREQ. EXTRACTION -----------
+
+The light isotope log file is:  tests\log_files\water\convergence\H2O_16-O_EDIT.LOG
+Extracting isotopic information.
+Convergence table not found, unable to extract.
+Extracting low frequencies.
+
+Low frequencies: [0.0015, 0.0004, 0.0011, 41.5191, 60.0133, 86.979, 1667.0706, 3796.3697, 3908.4907]
+
+Warning! Some low frequencies exceed the +/- 30 cm-1 threshold! Treat results with caution. 
+
+Extracting frequencies.
+The number of expected frequencies is: 3
+3 frequencies extracted. 
+
+
+----------- HEAVY ISOTOPE FREQ. EXTRACTION -----------
+
+The heavy isotope log file is:  tests\log_files\water\convergence\H2O_18-O.LOG
+Extracting isotopic information.
+Extracting item convergence table
+Maximum Force converged.
+RMS Force converged.
+Maximum Displacement converged.
+RMS Displacement converged.
+Extracting low frequencies.
+
+Low frequencies: [0.0009, -0.0008, 0.0013, 41.5191, 59.8795, 86.4354, 1660.1773, 3788.3049, 3892.7376]
+
+Warning! Some low frequencies exceed the +/- 30 cm-1 threshold! Treat results with caution. 
+
+Extracting frequencies.
+The number of expected frequencies is: 3
+3 frequencies extracted. 
+
+
+--------------------- CALCULATION ---------------------
+
+Now calculating the reduced partition function ratio...
+Primed variables (v', Q') refer to the light isotope.
+ln(v/v'):  -0.010308781419693998
+lnQ:  -22.53854287516933
+lnQ':  -22.612654961527912
+1000*lnB :  63.80330493888664
+
+--------------- WRITING TO OUTPUT FILE ----------------
+
+The output filepath is: tests\log_files\water\convergence\outputs\H2O_heavyconv.txt
+Writing all extracted information to tests\log_files\water\convergence\outputs\H2O_heavyconv.txt
+Writing data to file...
+
+Unable to write light isotope convergence table to file.
+Program complete.

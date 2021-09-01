@@ -1,0 +1,19 @@
+This output file is generated from the following files: 
+Light isotope file: tests\log_files\water\frequency\H2O_16-O_OPT.LOG
+Heavy isotope file: tests\log_files\water\frequency\H2O_18-O_OPT.LOG
+
+O isotopes extracted: 16 and 18
+
+Light isotope convergence table:
+         Item               Value     Threshold  Converged?
+ Maximum Force            0.000309     0.000450     YES
+ RMS     Force            0.000254     0.000300     YES
+ Maximum Displacement     0.001166     0.001800     YES
+ RMS     Displacement     0.001013     0.001200     YES
+
+Heavy isotope convergence table: 
+         Item               Value     Threshold  Converged?
+ Maximum Force            0.000309     0.000450     YES
+ RMS     Force            0.000254     0.000300     YES
+ Maximum Displacement     0.001166     0.001800     YES
+ RMS     Displacement     0.001013     0.001200     YES

@@ -1,0 +1,65 @@
+This output file is generated from the following files: 
+Light isotope file: input_files\alkanes\C_2_12.LOG
+Heavy isotope file: input_files\alkanes\C_2_13.LOG
+
+C isotope extracted: 13
+Temperature = 298.15 K
+
+Number of frequencies used in calculating FULL RPFR: 18
+ln(v/v'): -0.049037403376314875
+lnQ: -78.87712079448303
+lnQ': -79.05578667651136
+RPFR: 129.628478652009
+
+Number of frequencies used in calculating secondary RPFR: 17
+This is the RPFR calculated using the frequencies that contain isotope movement.
+ln(v/v'): -0.049037403376314875
+lnQ: -78.36626581763021
+lnQ': -78.54493169965853
+RPFR: 129.628478652009
+
+Light isotope frequencies:
+[ 314.3618  828.3811  828.3811 1005.4903 1226.5141 1226.5141 1419.1208
+ 1441.0882 1516.9737 1516.9737 1521.6317 1521.6319 3042.0423 3043.231
+ 3097.4808 3097.4809 3121.3587 3121.3588]
+
+Isotope contributions - estimation of isotope movement in each frequency:
+[ 0.   -0.05 -0.05  0.32  0.14  0.14  0.09 -0.11 -0.02 -0.02  0.05  0.05
+ -0.04  0.03 -0.07 -0.07  0.07  0.07]
+
+The frequencies that contain movement of the isotope:
+[ 828.3811  828.3811 1005.4903 1226.5141 1226.5141 1419.1208 1441.0882
+ 1516.9737 1516.9737 1521.6317 1521.6319 3042.0423 3043.231  3097.4808
+ 3097.4809 3121.3587 3121.3588]
+
+Heavy isotope frequencies:
+[ 314.3618  827.5234  827.5235  990.3032 1218.2852 1218.2853 1413.2434
+ 1436.4365 1516.4888 1516.4888 1520.1829 1520.183  3039.0942 3042.7614
+ 3090.6635 3090.6636 3116.9541 3116.9542]
+
+ Isotope contributions - estimation of isotope movement in each frequency:
+[ 0.   -0.05 -0.05  0.32  0.14  0.14  0.1  -0.07 -0.03 -0.03  0.04  0.04
+ -0.05  0.01 -0.07  0.07  0.05  0.05]
+
+The frequencies that contain movement of the isotope:
+[ 827.5234  827.5235  990.3032 1218.2852 1218.2853 1413.2434 1436.4365
+ 1516.4888 1516.4888 1520.1829 1520.183  3039.0942 3042.7614 3090.6635
+ 3090.6636 3116.9541 3116.9542]
+
+Light isotope convergence table:
+         Item               Value     Threshold  Converged?
+ Maximum Force            0.000083     0.000450     YES
+ RMS     Force            0.000038     0.000300     YES
+ Maximum Displacement     0.000760     0.001800     YES
+ RMS     Displacement     0.000378     0.001200     YES
+
+Low frequencies: [0.0063, -0.0063, -0.0016, 14.338, 14.3385, 29.5539, 314.3618, 828.3811, 828.3811]
+
+Heavy isotope convergence table: 
+         Item               Value     Threshold  Converged?
+ Maximum Force            0.000083     0.000450     YES
+ RMS     Force            0.000038     0.000300     YES
+ Maximum Displacement     0.000760     0.001800     YES
+ RMS     Displacement     0.000378     0.001200     YES
+
+Low frequencies: [0.0061, -0.0061, -0.0015, 14.1801, 14.1807, 29.5539, 314.3618, 827.5234, 827.5235]

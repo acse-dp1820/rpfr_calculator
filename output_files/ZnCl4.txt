@@ -1,0 +1,57 @@
+This output file is generated from the following files: 
+Light isotope file: tests\log_files\zinc\ZNCL4_B_64.LOG
+Heavy isotope file: tests\log_files\zinc\ZNCL4_B_66.LOG
+
+Zn isotopes extracted: 64 and 66
+Temperature = 298.15 K
+
+Number of frequencies used in calculating FULL RPFR: 9
+ln(v/v'): -0.0315100969082155
+lnQ: 2.730158576449397
+lnQ': 2.696163430438825
+RPFR: 2.4850491023564736
+
+Number of frequencies used in calculating secondary RPFR: 6
+This is the RPFR calculated using the frequencies that contain isotope movement.
+ln(v/v'): -0.03151009690821553
+lnQ: 0.9671849454955381
+lnQ': 0.9331897994849656
+RPFR: 2.4850491023570287
+
+Light isotope frequencies:
+[ 78.5452  78.5452 126.6746 126.6746 126.6746 232.1478 232.2047 232.2047
+ 232.2047]
+
+Isotope contributions - estimation of isotope movement in each frequency:
+[0.   0.   0.24 0.33 0.49 0.   0.57 0.71 0.39]
+
+The frequencies that contain movement of the isotope:
+[126.6746 126.6746 126.6746 232.2047 232.2047 232.2047]
+
+Heavy isotope frequencies:
+[ 78.5452  78.5452 126.2453 126.2453 126.2453 230.5599 230.5599 230.5599
+ 232.1478]
+
+ Isotope contributions - estimation of isotope movement in each frequency:
+[0.   0.   0.35 0.21 0.47 0.51 0.65 0.48 0.  ]
+
+The frequencies that contain movement of the isotope:
+[126.2453 126.2453 126.2453 230.5599 230.5599 230.5599]
+
+Light isotope convergence table:
+         Item               Value     Threshold  Converged?
+ Maximum Force            0.000002     0.000450     YES
+ RMS     Force            0.000001     0.000300     YES
+ Maximum Displacement     0.000020     0.001800     YES
+ RMS     Displacement     0.000018     0.001200     YES
+
+Low frequencies: [0.0091, 0.0091, 0.0097, 10.8841, 10.8841, 10.8841, 78.5452, 78.5452, 126.6746]
+
+Heavy isotope convergence table: 
+         Item               Value     Threshold  Converged?
+ Maximum Force            0.000002     0.000450     YES
+ RMS     Force            0.000001     0.000300     YES
+ Maximum Displacement     0.000020     0.001800     YES
+ RMS     Displacement     0.000018     0.001200     YES
+
+Low frequencies: [0.0079, 0.0043, 0.006, 10.8841, 10.8841, 10.8841, 78.5452, 78.5452, 126.2453]

@@ -1,0 +1,34 @@
+------------------ TEMPERATURE CHECK ------------------
+
+Temperature not found in either log file.
+
+----------- LIGHT ISOTOPE FREQ. EXTRACTION -----------
+
+The light isotope log file is:  tests\log_files\water\frequency\H2O_16-O.LOG
+Extracting isotopic information.
+Extracting item convergence table
+Maximum Force converged.
+RMS Force converged.
+Maximum Displacement converged.
+RMS Displacement converged.
+Extracting low frequencies.
+
+Low frequencies: [0.0015, 0.0004, 0.0011, 41.5191, 60.0133, 86.979, 1667.0706, 3796.3697, 3908.4907]
+
+Warning! Some low frequencies exceed the +/- 30 cm-1 threshold! Treat results with caution. 
+
+Extracting frequencies.
+The number of expected frequencies is: 3
+3 frequencies extracted. 
+
+----------- HEAVY ISOTOPE FREQ. EXTRACTION -----------
+
+The heavy isotope log file is:  tests\log_files\water\frequency\H2O_18-O_OPT.LOG
+Extracting isotopic information.
+Extracting item convergence table
+Maximum Force converged.
+RMS Force converged.
+Maximum Displacement converged.
+RMS Displacement converged.
+Low frequencies not found.
+Frequencies not found.

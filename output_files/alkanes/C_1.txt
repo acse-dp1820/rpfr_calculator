@@ -1,0 +1,57 @@
+This output file is generated from the following files: 
+Light isotope file: input_files\alkanes\C_1_12.LOG
+Heavy isotope file: input_files\alkanes\C_1_13.LOG
+
+C isotope extracted: 13
+Temperature = 298.15 K
+
+Number of frequencies used in calculating FULL RPFR: 9
+ln(v/v'): -0.02939093804388941
+lnQ: -47.52752076842255
+lnQ': -47.67052756097172
+RPFR: 113.61585450528366
+
+Number of frequencies used in calculating secondary RPFR: 6
+This is the RPFR calculated using the frequencies that contain isotope movement.
+ln(v/v'): -0.029390938043889415
+lnQ: -32.560161638360604
+lnQ': -32.70316843090978
+RPFR: 113.61585450528366
+
+Light isotope frequencies:
+[1356.2043 1356.2043 1356.2043 1578.5779 1578.5779 3046.4628 3162.3267
+ 3162.3267 3162.3267]
+
+Isotope contributions - estimation of isotope movement in each frequency:
+[ 0.18  0.03  0.12  0.    0.    0.   -0.01 -0.13  0.09]
+
+The frequencies that contain movement of the isotope:
+[1356.2043 1356.2043 1356.2043 3162.3267 3162.3267 3162.3267]
+
+Heavy isotope frequencies:
+[1347.818  1347.818  1347.818  1578.5779 1578.5779 3046.4628 3150.9813
+ 3150.9813 3150.9813]
+
+ Isotope contributions - estimation of isotope movement in each frequency:
+[ 0.18  0.01  0.12  0.    0.    0.    0.02 -0.12  0.09]
+
+The frequencies that contain movement of the isotope:
+[1347.818  1347.818  1347.818  3150.9813 3150.9813 3150.9813]
+
+Light isotope convergence table:
+         Item               Value     Threshold  Converged?
+ Maximum Force            0.000063     0.000450     YES
+ RMS     Force            0.000034     0.000300     YES
+ Maximum Displacement     0.000179     0.001800     YES
+ RMS     Displacement     0.000095     0.001200     YES
+
+Low frequencies: [0.0005, 0.001, 0.0013, 28.8709, 28.8709, 28.8709, 1356.2043, 1356.2043, 1356.2043]
+
+Heavy isotope convergence table: 
+         Item               Value     Threshold  Converged?
+ Maximum Force            0.000063     0.000450     YES
+ RMS     Force            0.000034     0.000300     YES
+ Maximum Displacement     0.000179     0.001800     YES
+ RMS     Displacement     0.000095     0.001200     YES
+
+Low frequencies: [0.0004, 0.0009, 0.0013, 28.8709, 28.8709, 28.8709, 1347.818, 1347.818, 1347.818]

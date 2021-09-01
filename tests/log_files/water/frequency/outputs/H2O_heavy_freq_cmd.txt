@@ -1,0 +1,15 @@
+------------------ TEMPERATURE CHECK ------------------
+
+Temperature not found in either log file.
+
+----------- LIGHT ISOTOPE FREQ. EXTRACTION -----------
+
+The light isotope log file is:  tests\log_files\water\frequency\H2O_16-O_OPT.LOG
+Extracting isotopic information.
+Extracting item convergence table
+Maximum Force converged.
+RMS Force converged.
+Maximum Displacement converged.
+RMS Displacement converged.
+Low frequencies not found.
+Frequencies not found.

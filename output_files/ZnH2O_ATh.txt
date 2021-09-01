@@ -1,0 +1,79 @@
+This output file is generated from the following files: 
+Light isotope file: tests\log_files\zinc\ZnH2O_A_Freq_64_Th.log
+Heavy isotope file: tests\log_files\zinc\ZnH2O_A_Freq_66_Th.log
+
+Zn isotopes extracted: 64 and 66
+Temperature = 298.15 K
+
+Number of frequencies used in calculating FULL RPFR: 51
+ln(v/v'): -0.02882077504374401
+lnQ: -140.45703336140377
+lnQ': -140.4897585113559
+RPFR: 3.904374908358932
+
+Number of frequencies used in calculating secondary RPFR: 15
+This is the RPFR calculated using the frequencies that contain isotope movement.
+ln(v/v'): -0.02881733072866595
+lnQ: -2.0482577356359877
+lnQ': -2.08096840081644
+RPFR: 3.893334451786412
+
+Light isotope frequencies:
+[  63.8848   63.8848   63.8848   74.9439   74.9439   74.9439  104.2576
+  104.2576  104.2576  216.8176  216.8176  251.2392  251.2392  258.5663
+  258.5663  258.5663  301.1562  301.1562  301.1562  339.8296  339.8296
+  339.8296  345.0409  364.4858  364.4858  364.4858  407.0733  532.0991
+  532.0991  532.0991  541.6865  541.6865  541.6865 1693.4914 1693.4914
+ 1694.6086 1694.6086 1694.6086 1701.9162 3716.3438 3716.3438 3717.259
+ 3717.259  3717.259  3723.8817 3808.2484 3808.2484 3808.2484 3808.6125
+ 3808.6125 3808.6125]
+
+Isotope contributions - estimation of isotope movement in each frequency:
+[ 0.    0.    0.   -0.02 -0.02 -0.02  0.21  0.14  0.13  0.    0.    0.
+  0.    0.    0.    0.    0.07  0.04  0.08  0.    0.    0.    0.   -0.06
+ -0.05 -0.07  0.    0.    0.    0.    0.02  0.03 -0.04  0.    0.    0.
+  0.    0.    0.    0.    0.    0.    0.    0.    0.    0.    0.    0.
+  0.    0.    0.  ]
+
+The frequencies that contain movement of the isotope:
+[ 74.9439  74.9439  74.9439 104.2576 104.2576 104.2576 301.1562 301.1562
+ 301.1562 364.4858 364.4858 364.4858 541.6865 541.6865 541.6865]
+
+Heavy isotope frequencies:
+[  63.8848   63.8848   63.8848   74.9378   74.9378   74.9378  103.7832
+  103.7832  103.7832  216.8176  216.8176  251.2392  251.2392  258.5663
+  258.5663  258.5663  300.4032  300.4032  300.4032  339.8296  339.8296
+  339.8296  345.0409  363.826   363.826   363.826   407.0733  532.0991
+  532.0991  532.0991  541.3354  541.3354  541.3354 1693.4914 1693.4914
+ 1694.6067 1694.6067 1694.6067 1701.9162 3716.3438 3716.3438 3717.2589
+ 3717.2589 3717.2589 3723.8817 3808.2484 3808.2484 3808.2484 3808.6125
+ 3808.6125 3808.6125]
+
+ Isotope contributions - estimation of isotope movement in each frequency:
+[ 0.    0.    0.   -0.02 -0.02 -0.02  0.23  0.09  0.13  0.    0.    0.
+  0.    0.    0.    0.    0.07  0.03  0.09  0.    0.    0.    0.   -0.06
+ -0.05 -0.07  0.    0.    0.    0.    0.03  0.03 -0.03  0.    0.    0.
+  0.    0.    0.    0.    0.    0.    0.    0.    0.    0.    0.    0.
+  0.    0.    0.  ]
+
+The frequencies that contain movement of the isotope:
+[ 74.9378  74.9378  74.9378 103.7832 103.7832 103.7832 300.4032 300.4032
+ 300.4032 363.826  363.826  363.826  541.3354 541.3354 541.3354]
+
+Light isotope convergence table:
+         Item               Value     Threshold  Converged?
+ Maximum Force            0.000007     0.000450     YES
+ RMS     Force            0.000004     0.000300     YES
+ Maximum Displacement     0.000077     0.001800     YES
+ RMS     Displacement     0.000036     0.001200     YES
+
+Low frequencies: [0.0013, 0.0014, 0.0017, 8.2085, 8.2085, 8.2085, 63.885, 63.885, 63.885]
+
+Heavy isotope convergence table: 
+         Item               Value     Threshold  Converged?
+ Maximum Force            0.000007     0.000450     YES
+ RMS     Force            0.000004     0.000300     YES
+ Maximum Displacement     0.000077     0.001800     YES
+ RMS     Displacement     0.000036     0.001200     YES
+
+Low frequencies: [0.0012, -0.001, -0.0009, 8.2085, 8.2085, 8.2085, 63.885, 63.885, 63.885]

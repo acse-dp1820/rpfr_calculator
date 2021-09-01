@@ -1,0 +1,41 @@
+
+------------------ TEMPERATURE CHECK ------------------
+
+Temperature not found in either log file.
+
+----------- LIGHT ISOTOPE FREQ. EXTRACTION -----------
+
+The light isotope log file is:  tests\log_files\zinc\ZNCL2_W_64.LOG
+Light isotope nonexistent. Unable to extract.
+Convergence table not found, unable to extract.
+Low frequencies not found.
+Frequencies not found.
+
+----------- HEAVY ISOTOPE FREQ. EXTRACTION -----------
+
+The heavy isotope log file is:  tests\log_files\zinc\ZNCL2_W_66.LOG
+Heavy isotope nonexistent. Unable to extract.
+Convergence table not found, unable to extract.
+Low frequencies not found.
+Frequencies not found.
+
+--------------------- CALCULATION ---------------------
+
+Unable to calculate the reduced partition function ratio.
+
+--------------- WRITING TO OUTPUT FILE ----------------
+
+The output filepath is: tests\log_files\zinc\outputs\ZnCl2.txt
+Writing all extracted information to tests\log_files\zinc\outputs\ZnCl2.txt
+Writing data to file...
+Unable to write isotopic information.
+Unable to write temperature to file.
+Unable to write RPFR to file.
+Unable to write light isotope frequencies to file.
+Unable to write heavy isotope frequencies to file.
+
+Unable to write light isotope convergence table to file.
+Unable to write light isotope low frequencies to file.
+Unable to write heavy isotope convergence table to file.
+Unable to write heavy isotope low frequencies to file.
+Program complete. Please check command line output for any issues that may have occurred.

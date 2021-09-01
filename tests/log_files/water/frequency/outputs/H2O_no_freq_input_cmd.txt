@@ -1,0 +1,42 @@
+------------------ TEMPERATURE CHECK ------------------
+
+Temperature not found in either log file.
+
+----------- LIGHT ISOTOPE FREQ. EXTRACTION -----------
+
+The light isotope log file is:  tests\log_files\water\frequency\H2O_16-O_OPT.LOG
+Extracting isotopic information.
+Extracting item convergence table
+Maximum Force converged.
+RMS Force converged.
+Maximum Displacement converged.
+RMS Displacement converged.
+Low frequencies not found.
+Frequencies not found.
+----------- HEAVY ISOTOPE FREQ. EXTRACTION -----------
+
+The heavy isotope log file is:  tests\log_files\water\frequency\H2O_18-O_OPT.LOG
+Extracting isotopic information.
+Extracting item convergence table
+Maximum Force converged.
+RMS Force converged.
+Maximum Displacement converged.
+RMS Displacement converged.
+Low frequencies not found.
+Frequencies not found.
+--------------------- CALCULATION ---------------------
+
+Unable to calculate the reduced partition function ratio.
+--------------- WRITING TO OUTPUT FILE ----------------
+
+Creating file + associated directories.
+The output filepath is: tests/log_files/water/frequency/outputs/H2O_no_freq_input.txt
+Writing all extracted information to tests/log_files/water/frequency/outputs/H2O_no_freq_input.txt
+Writing data to file...
+Unable to write temperature to file.
+Unable to write RPFR to file.
+Unable to write light isotope frequencies to file.
+Unable to write heavy isotope frequencies to file.
+Unable to write low frequencies to file.
+Unable to write low frequencies to file.
+Program complete.

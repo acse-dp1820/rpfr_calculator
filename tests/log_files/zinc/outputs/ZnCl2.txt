@@ -1,0 +1,4 @@
+This output file is generated from the following files: 
+Light isotope file: tests\log_files\zinc\ZNCL2_W_64.LOG
+Heavy isotope file: tests\log_files\zinc\ZNCL2_W_66.LOG
+

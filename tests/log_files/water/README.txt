@@ -1,0 +1,3 @@
+The files in this folder can be used to test the functionality of `script.py`. They are separated by the functionality tested (temperature, isotope, frequency checks). Any output files written by the program, and any command line outputs saved to a file are stored in an `outputs/` subfolder.
+
+N.B. - The files used for convergence are optimisation and frequency log files that have had the Item convergence table REMOVED  as the item convergence table appears in all log files (leading to this test being somewhat unnecessary). No other edits to the file were made.

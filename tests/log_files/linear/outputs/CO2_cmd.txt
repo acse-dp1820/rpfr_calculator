@@ -1,0 +1,83 @@
+
+------------------ TEMPERATURE CHECK ------------------
+
+Extracting temperature values from the log files...
+Checking the temperature values in both log files are equal.
+Temperature:  298.15  K
+
+
+----------- LIGHT ISOTOPE FREQ. EXTRACTION -----------
+
+The light isotope log file is:  tests\log_files\linear\CO2_12.LOG
+Extracting isotopic information.
+Extracting item convergence table
+Maximum Force converged.
+RMS Force converged.
+Maximum Displacement converged.
+RMS Displacement converged.
+Extracting low frequencies.
+
+Low frequencies: [0.0011, 0.0011, 0.0011, 11.679, 11.679, 640.2804, 640.2804, 1371.6088, 2435.4834]
+
+Warning! Some low frequencies exceed the +/- 30 cm-1 threshold! Treat results with caution. 
+
+Extracting frequencies.
+The number of expected frequencies is: 4
+4 frequencies extracted. 
+
+
+----------- HEAVY ISOTOPE FREQ. EXTRACTION -----------
+
+The heavy isotope log file is:  tests\log_files\linear\CO2_13.LOG
+Extracting isotopic information.
+Extracting item convergence table
+Maximum Force converged.
+RMS Force converged.
+Maximum Displacement converged.
+RMS Displacement converged.
+Extracting low frequencies.
+
+Low frequencies: [0.0011, 0.0017, 0.0017, 11.679, 11.679, 622.0572, 622.0572, 1371.6088, 2366.1666]
+
+Warning! Some low frequencies exceed the +/- 30 cm-1 threshold! Treat results with caution. 
+
+Extracting frequencies.
+The number of expected frequencies is: 4
+4 frequencies extracted. 
+
+
+--------------------- CALCULATION ---------------------
+
+Now calculating the reduced partition function ratio...
+Primed variables (v', Q') refer to the light isotope.
+ln(v/v'):  -0.08662239207232558
+lnQ:  -11.91721477838377
+lnQ':  -12.181192887280375
+1000*lnB:  177.3557168242803
+
+-------------- CONTRIBUTIONS TO FREQUENCY --------------
+
+This section calculates the extent to which the isotope moves for each frequency.
+The atomic number is extracted from isotope_contribution/atomic_number.csv. If the element you need is not present, please add it.
+The absolute sum of the X,Y,Z coordinates is calculated for each frequency and stored in an array.
+The atomic number of C is 6
+Frequency contributions ascertained.
+Number of frequencies that have light isotope movement: 3.
+Number of frequencies that have heavy isotope movement: 3.
+
+The number of light / heavy frequencies that contain isotope movement are the same.
+Calculating RPFR with selected frequencies - treat this result with caution.
+Now calculating the reduced partition function ratio...
+Primed variables (v', Q') refer to the light isotope.
+ln(v/v'):  -0.08662239207232558
+lnQ:  -8.609077042227682
+lnQ':  -8.873055151124287
+1000*lnB:  177.3557168242803
+
+--------------- WRITING TO OUTPUT FILE ----------------
+
+Creating file + associated directories.
+The output filepath is: tests\log_files\linear\outputs\CO2.txt
+Writing all extracted information to tests\log_files\linear\outputs\CO2.txt
+Writing data to file...
+Program complete. Please check command line output for any issues that may have occurred.

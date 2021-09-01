@@ -1,0 +1,55 @@
+This output file is generated from the following files: 
+Light isotope file: tests\log_files\linear\CO2_12.LOG
+Heavy isotope file: tests\log_files\linear\CO2_13.LOG
+
+C isotopes extracted: 12 and 13
+Temperature = 298.15 K
+
+Number of frequencies used in calculating FULL RPFR: 4
+ln(v/v'): -0.08662239207232558
+lnQ: -11.91721477838377
+lnQ': -12.181192887280375
+RPFR: 177.3557168242803
+
+Number of frequencies used in calculating secondary RPFR: 3
+This is the RPFR calculated using the frequencies that contain isotope movement.
+ln(v/v'): -0.08662239207232558
+lnQ: -8.609077042227682
+lnQ': -8.873055151124287
+RPFR: 177.3557168242803
+
+Light isotope frequencies:
+[ 640.2804  640.2804 1371.6088 2435.4834]
+
+Isotope contributions - estimation of isotope movement in each frequency:
+[0.88 0.88 0.   0.88]
+
+The frequencies that contain movement of the isotope:
+[ 640.2804  640.2804 2435.4834]
+
+Heavy isotope frequencies:
+[ 622.0572  622.0572 1371.6088 2366.1666]
+
+ Isotope contributions - estimation of isotope movement in each frequency:
+[0.87 0.87 0.   0.87]
+
+The frequencies that contain movement of the isotope:
+[ 622.0572  622.0572 2366.1666]
+
+Light isotope convergence table:
+         Item               Value     Threshold  Converged?
+ Maximum Force            0.000184     0.000450     YES
+ RMS     Force            0.000130     0.000300     YES
+ Maximum Displacement     0.000162     0.001800     YES
+ RMS     Displacement     0.000115     0.001200     YES
+
+Low frequencies: [0.0011, 0.0011, 0.0011, 11.679, 11.679, 640.2804, 640.2804, 1371.6088, 2435.4834]
+
+Heavy isotope convergence table: 
+         Item               Value     Threshold  Converged?
+ Maximum Force            0.000184     0.000450     YES
+ RMS     Force            0.000130     0.000300     YES
+ Maximum Displacement     0.000162     0.001800     YES
+ RMS     Displacement     0.000115     0.001200     YES
+
+Low frequencies: [0.0011, 0.0017, 0.0017, 11.679, 11.679, 622.0572, 622.0572, 1371.6088, 2366.1666]
