@@ -1,0 +1,36 @@
+name: Lint using Flake8
+
+on:
+   # Trigger the workflow on push or pull request,
+   # but only for the master branch
+   push:
+     branches:
+       - master
+   pull_request:
+     branches:
+       - master
+
+jobs:
+  Lint:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Git repository
+      uses: actions/checkout@v2
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install flake8 black
+    - name: Lint
+      uses: wearerequired/lint-action@v1
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        flake8: true
+        flake8_args: "--ignore=E501,W503,E203" #ignore errors
+        black: true
+        auto_fix: true
